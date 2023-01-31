@@ -1,0 +1,19 @@
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    background-color:rgb(2, 133, 219);
+    color:rgb(240, 229, 229);
+    text-align: center;}
+
+a { font-size: 10px; }
+  a:hover { font-size: 15px;}
+
+form {    /* shape and style of form in browser */
+    background-color:rgb(105, 179, 228);
+    color:rgb(0, 0, 0); 
+        display: inline-block;
+        padding: 10px;
+        margin: 10px;
+        border: 5px solid white; }
+        
