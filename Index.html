@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<title> Standard Password Page</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src ="java.js"></script>
+
+    </head>
+    
+        <body>
+            <h2> Please Sign In to Continue</h2>
+                <form> 
+            <br>
+                <label>Email or Username</label>
+            <br><!-- 5a. match text1 to function elements in HTML id:-->
+                    <input type="text" placeholder="username" id="text1"</input>
+            <p>
+                <label>Password</label> 
+            <br><!-- 5b. match text2 to function elements in HTML id:-->
+                    <input type="password" placeholder="password" id="text2" </input>
+            <br>
+                    <a href="https://www.google.com/">Forgot Password</a>
+            <p>
+                 <!-- 6. onclick is the function being called from button-->
+                    <input type="button" value="Sign In" onclick="javascript:validate()"</input>
+            <p>
+                </form>
+            <p>
+        </body>
+    </html>
